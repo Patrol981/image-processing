@@ -61,7 +61,7 @@ File,
 Stream
 ```
 
-### How does POST body look's like?
+### How does POST body looks like?
 
 ```javascript
 body: {
@@ -74,4 +74,18 @@ body: {
   }
   imageReturnType: 0
 }
+```
+
+### Running app
+
+```shell
+// App directory
+dotnet run
+```
+
+### Testing app
+
+```shell
+// Test directory
+dotnet test
 ```
